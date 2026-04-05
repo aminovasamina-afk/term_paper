@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись к ветеринару</title>
+    <link rel="stylesheet" href="./mu2.css">
+</head>
+<body>
+    <div class="main-box">
+        <h1>Запись к ветеринару</h1>
+
+        <form method="post" action="#">
+            <label for="name">Ваше имя</label>
+            <input id="name" name="name" type="text" placeholder="Введите ваше имя">
+
+            <label for="phone">Ваш телефон</label>
+            <input id="phone" name="phone" type="tel" placeholder="+996...">
+
+            <label for="pet">О питомце (кто у вас?)</label>
+            <input id="pet" name="pet" type="text" placeholder="Например: кот, собака, хомяк...">
+
+            <label for="service">Какая услуга нужна?</label>
+            <select id="service" name="service">
+                <option>Вакцинация</option>
+                <option>Хирургия</option>
+                <option>Диагностика</option>
+                <option>Стоматология</option>
+            </select>
+
+            <label for="date">Выберите дату</label>
+            <input id="date" name="date" type="date">
+
+            <button class="send-btn" type="submit">Отправить</button>
+
+            <br><br>
+            <a href="index.html">Назад на главную</a>
+        </form>
+    </div>
+</body>
+</html>
